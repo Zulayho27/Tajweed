@@ -1,0 +1,101 @@
+body{
+    background-color: rgb(107, 77, 46);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+}
+.h{
+    background-image: url(./a1f018fa0e77768eb478443d510e5c3f-Picsart-AiImageEnhancer.jpg);
+    height: 500px;
+    width: 1521px;
+    border-radius: 20px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+h1{
+    color: white;
+    margin-left: 30px;
+    width: 200px;
+    font-size: 60px;
+}
+.task1-5{
+    display: flex;
+    gap: 30px;
+}
+
+
+.task1{
+    background:     rgb(78, 37, 4);
+    border-radius: 30px;
+    width: 250px;
+    height: 350px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    background-image: url(./4cbb7fbf4374898c6b34341e5141d721.jpg);
+    background-size:cover ;
+    margin-left: 73px;
+}
+.task{
+    background:     rgb(78, 37, 4);
+    border-radius: 30px;
+    width: 250px;
+    height: 350px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    background-image: url(./4cbb7fbf4374898c6b34341e5141d721.jpg);
+    background-size:cover ;
+}
+a{
+    text-decoration:none;
+    color: rgb(167, 135, 103);
+}
+a:hover{
+    color: black;
+}
+div button{
+    margin: auto;
+    border-radius: 60px;
+    width: 150px;
+    height:50px;
+    font-size: 25px;
+    border-color:2px solid  rgb(167, 135, 103);
+    background-color: black ;
+    color: rgb(167, 135, 103);
+}
+p{
+    font-size: 32px;
+}
+button:hover{
+    background: rgb(167, 135, 103); 
+}
+.img2{
+    width: 40px;
+}
+.text{
+    font-size:24px;
+}
+.listen{
+    display: flex;
+    gap: 10px;
+    font-size: 30px;
+    margin: 0px;
+    justify-content: center;
+}
+.listen button{
+    margin: 0px;
+    margin-top:35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
