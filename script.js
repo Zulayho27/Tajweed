@@ -1496,15 +1496,25 @@ document.addEventListener('DOMContentLoaded', () => {
     const lessonList = document.getElementById('lesson-list');
     const lessonDisplay = document.getElementById('lesson-display');
     const searchBar = document.getElementById('search-bar');
-    let lessonLinks = [];
+    
+    // *** ИСПРАВЛЕНИЕ: Мы получаем эти элементы здесь ***
+    const menuToggle = document.getElementById('menu-toggle');
+    const sidebar = document.getElementById('sidebar');
+    const mainContent = document.querySelector('.main-content');
+    
+    let lessonLinks = []; // Мы сохраним ссылки на уроки здесь
 
-
+    // ======================= //
+    //     Функция Загрузки Урока //
+    // ======================= //
     function loadLesson(lessonId) {
         const lesson = allLessons.find(l => l.id === lessonId);
         if (!lesson) return;
 
+        // Загружаем контент урока
         lessonDisplay.innerHTML = lesson.content;
 
+        // Анимация GSAP
         gsap.fromTo(lessonDisplay.children, 
             { opacity: 0, y: 30 }, 
             { 
@@ -1516,7 +1526,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         );
 
-  
+        // Обновляем .active класс в списке
         lessonLinks.forEach(link => {
             link.classList.remove('active');
             if (parseInt(link.dataset.id) === lessonId) {
@@ -1524,11 +1534,18 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
         
-        lessonDisplay.parentElement.scrollTop = 0;
-    
+        // Прокручиваем контент наверх
+        if (lessonDisplay.parentElement) {
+            lessonDisplay.parentElement.scrollTop = 0;
+        }
+        
+        // Активация тестов для нового контента
         activateQuizListeners();
     }
 
+    // ======================= //
+    //     Функция Поиска      //
+    // ======================= //
     function filterLessons() {
         const searchTerm = searchBar.value.toLowerCase();
         
@@ -1542,6 +1559,9 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
     
+    // ======================= //
+    //     Логика Тестов       //
+    // ======================= //
     function activateQuizListeners() {
         const quizOptionGroups = lessonDisplay.querySelectorAll('.quiz-options');
         
@@ -1557,45 +1577,80 @@ document.addEventListener('DOMContentLoaded', () => {
         const clickedButton = event.target;
         const isCorrect = clickedButton.dataset.correct === 'true';
         
-
         const optionsGroup = clickedButton.parentElement;
         
         if (isCorrect) {
             clickedButton.classList.add('correct');
         } else {
             clickedButton.classList.add('incorrect');
-
             const correctButton = optionsGroup.querySelector('button[data-correct="true"]');
             if (correctButton) {
                 correctButton.classList.add('correct');
             }
         }
-
+        
         optionsGroup.querySelectorAll('button').forEach(btn => {
             btn.disabled = true;
         });
     }
 
+    // ======================= //
+    //      Инициализация      //
+    // ======================= //
+    
+    // 1. Генерируем список уроков
     allLessons.forEach(lesson => {
         const li = document.createElement('li');
         const a = document.createElement('a');
         a.textContent = lesson.title;
-        a.dataset.id = lesson.id;
+        a.dataset.id = lesson.id; // Сохраняем ID урока
         li.appendChild(a);
         lessonList.appendChild(li);
     });
 
+    // Сохраняем все ссылки в массив для быстрого доступа
     lessonLinks = Array.from(lessonList.querySelectorAll('a'));
 
+    // 2. Назначаем слушателей событий (Поиск)
     searchBar.addEventListener('keyup', filterLessons);
 
+    // 3. Назначаем слушателей событий (Выбор урока)
     lessonList.addEventListener('click', (e) => {
+        // Убедимся, что кликнули именно по ссылке (<a>)
         if (e.target.tagName === 'A') {
             const lessonId = parseInt(e.target.dataset.id);
             loadLesson(lessonId);
+            
+            // *** ИСПРАВЛЕНИЕ ЗДЕСЬ ***
+            // Теперь мы закрываем меню, когда кликаем на урок
+            if (sidebar.classList.contains('open')) {
+                sidebar.classList.remove('open');
+            }
         }
     });
 
+    // 4. Загружаем Урок 1 по умолчанию
     loadLesson(1);
+    
+    // ======================= //
+    //    Логика Адаптивности   //
+    // ======================= //
+    
+    // 1. Открываем/Закрываем меню по клику на "бургер"
+    if (menuToggle && sidebar) {
+        menuToggle.addEventListener('click', () => {
+            sidebar.classList.toggle('open');
+        });
+    }
+
+    // 2. (Бонус) Закрываем меню, если кликнуть "мимо" него (на контент)
+    if (mainContent && sidebar) {
+        mainContent.addEventListener('click', (e) => {
+            // Убедимся, что клик не был по самой кнопке-бургеру
+            if (!menuToggle.contains(e.target) && sidebar.classList.contains('open')) {
+                sidebar.classList.remove('open');
+            }
+        });
+    }
 
 });
