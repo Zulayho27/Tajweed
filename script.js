@@ -1,6 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
     const allLessons = [
-        // --- Урок 1 (Из прошлой версии) ---
         {
             id: 1,
             title: "Урок 1: Душа Чтения — Что такое Таджвид",
@@ -21,7 +20,11 @@ document.addEventListener('DOMContentLoaded', () => {
                 <p class="explanation"><strong>Объяснение:</strong> «...и читай Коран размеренным чтением (тартиль)». Слово <strong>Тартиль</strong> — это и есть сердце Таджвида.</p>
 
                 <h3>🎬 Видео и Аудио Практика</h3>
-                <div class="media-placeholder"><p>Здесь будет ваше Видео к Уроку 1</p></div>
+                <div class="media-placeholder"><p>Здесь будет ваше Видео к Уроку</p></div>
+                <div class="audio-player">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+                    <p>Аудио-практика: Повторяйте Суру Аль-Фатиха</p>
+                </div>
 
                 <h3>🧠 Тест по Уроку 1</h3>
                 <div class="quiz-container">
@@ -40,7 +43,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 </div>
             `
         },
-        // --- Урок 2 (Из прошлой версии) ---
         {
             id: 2,
             title: "Урок 2: Ключи к Корану — 28 Арабских Букв",
@@ -76,6 +78,12 @@ document.addEventListener('DOMContentLoaded', () => {
                 <p class="transliteration">"Bismi" (Аль-Фатиха, 1:1)</p>
                 <p><strong>Объяснение:</strong> Вы уже знаете эти буквы! بِ (Ба), سْ (Син), مِ (Мим). Они просто соединились.</p>
 
+               <h3>🎬 Видео и Аудио Практика</h3>
+                <div class="media-placeholder"><p>Здесь будет ваше Видео к Уроку</p></div>
+                <div class="audio-player">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+                    <p>Аудио-практика: Алфавит</p>
+                </div>
                 <h3>🧠 Тест по Уроку 2</h3>
                 <div class="quiz-container">
                     <p class="quiz-question">Как читается арабский язык?</p>
@@ -93,7 +101,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 </div>
             `
         },
-        // --- Урок 3 (Из прошлой версии) ---
         {
             id: 3,
             title: "Урок 3: Где «живут» буквы — Махаридж аль-Хуруф",
@@ -123,6 +130,13 @@ document.addEventListener('DOMContentLoaded', () => {
                 <h3>🗣 Практическое Упражнение</h3>
                 <p class="explanation"><strong>Секрет Таджвида:</strong> Лучший способ найти махрадж буквы — это поставить на нее Сукун (°) и произнести перед ней Хамзу (ء). Например... скажите: «Аб!» (أَبْ). Где ваши губы сомкнулись — там и есть ее «дом»!</p>
 
+                <h3>🎬 Видео и Аудио Практика</h3>
+                <div class="media-placeholder"><p>Здесь будет ваше Видео к Уроку</p></div>
+                <div class="audio-player">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+                    <p>Аудио-практика:</p>
+                </div>
+
                 <h3>🧠 Тест по Уроку 3</h3>
                 <div class="quiz-container">
                     <p class="quiz-question">Какая из 5 областей является «домом» для букв Мадд (удлинения)?</p>
@@ -140,7 +154,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 </div>
             `
         },
-        // --- Урок 4 (Из прошлой версии) ---
         {
             id: 4,
             title: "Урок 4: «Характер» Букв — Сифат аль-Хуруф",
@@ -165,6 +178,13 @@ document.addEventListener('DOMContentLoaded', () => {
                 <p class="transliteration">"As-Sirāta" (Аль-Фатиха, 1:6)</p>
                 <p class="explanation"><strong>Объяснение:</strong> В этом слове... две твердые буквы: <strong>ص (Сад)</strong> и <strong>ط (Та)</strong>. Почувствуйте, как ваш язык поднимается сзади, чтобы сделать их плотными...</p>
 
+                <h3>🎬 Видео и Аудио Практика</h3>
+                <div class="media-placeholder"><p>Здесь будет ваше Видео к Уроку</p></div>
+                <div class="audio-player">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+                    <p>Аудио-практика:</p>
+                </div>
+
                 <h3>🧠 Тест по Уроку 4</h3>
                 <div class="quiz-container">
                     <p class="quiz-question">Что такое "Сифат" (атрибут) буквы?</p>
@@ -182,7 +202,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 </div>
             `
         },
-        // --- Урок 5 (НОВЫЙ) ---
         {
             id: 5,
             title: "Урок 5: Дыхание и Артикуляция",
@@ -213,6 +232,13 @@ document.addEventListener('DOMContentLoaded', () => {
                 <p><strong>Вдох ртом посреди слова:</strong> Это категорически запрещено в Таджвиде...</p>
                 <p><strong>Читать на «последнем издыхании»:</strong> Когда воздух заканчивается, голос становится слабым, и вы «проглатываете» буквы...</p>
 
+                <h3>🎬 Видео и Аудио Практика</h3>
+                <div class="media-placeholder"><p>Здесь будет ваше Видео к Уроку</p></div>
+                <div class="audio-player">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+                    <p>Аудио-практика:</p>
+                </div>
+
                 <h3>🧠 Тест по Уроку 5</h3>
                 <div class="quiz-container">
                     <p class="quiz-question">Какой тип дыхания является правильным для чтения Корана?</p>
@@ -230,7 +256,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 </div>
             `
         },
-        // --- Урок 6 (НОВЫЙ) ---
         {
             id: 6,
             title: "Урок 6: Знакомство с Нун Сакина и Танвином",
@@ -260,6 +285,13 @@ document.addEventListener('DOMContentLoaded', () => {
                 <div class="quran-text">قُلْ هُوَ اللَّهُ أَحَدٌ</div>
                 <p class="transliteration">"Qul huwa-Llāhu aḥadun" (Сура: Аль-Ихляс, 112:1)</p>
 
+                <h3>🎬 Видео и Аудио Практика</h3>
+                <div class="media-placeholder"><p>Здесь будет ваше Видео к Уроку</p></div>
+                <div class="audio-player">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+                    <p>Аудио-практика:</p>
+                </div>
+
                 <h3>🧠 Тест по Уроку 6</h3>
                 <div class="quiz-container">
                     <p class="quiz-question">Какой главный "секрет" объединяет Нун Сакина и Танвин?</p>
@@ -277,7 +309,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 </div>
             `
         },
-        // --- Урок 7 (НОВЫЙ) ---
         {
             id: 7,
             title: "Урок 7: Правило Ясности — Изхар Халькы",
@@ -311,6 +342,14 @@ document.addEventListener('DOMContentLoaded', () => {
                 <h3>⚠️ Ошибки, которых следует избегать</h3>
                 <p><strong>Добавление Гунны (назализации):</strong> Это самая частая ошибка. Вместо «а<strong>н</strong>-'амта» ученик читает «а<strong>нннн</strong>-'амта», как бы растягивая звук «н» в нос. Это неправильно. Изхар — это <strong>отсутствие</strong> Гунны.</p>
 
+
+                <h3>🎬 Видео и Аудио Практика</h3>
+                <div class="media-placeholder"><p>Здесь будет ваше Видео к Уроку</p></div>
+                <div class="audio-player">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+                    <p>Аудио-практика:</p>
+                </div>
+
                 <h3>🧠 Тест по Уроку 7</h3>
                 <div class="quiz-container">
                     <p class="quiz-question">Сколько букв вызывают правило "Изхар Халькы"?</p>
@@ -328,7 +367,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 </div>
             `
         },
-        // --- Урок 8 (НОВЫЙ) ---
         {
             id: 8,
             title: "Урок 8: Правило Слияния — Идгам",
@@ -363,6 +401,13 @@ document.addEventListener('DOMContentLoaded', () => {
                 <p><strong>Добавление Гунны к (ل) и (ر):</strong> Это самая распространенная ошибка. Читать «ми<strong>нннн</strong>-Раббихим»... — <strong>неправильно</strong>. Слияние должно быть чистым: «ми<strong>р-Р</strong>аббихим».</p>
                 <p><strong>Исключение:</strong> Если Нун Сакина (نْ) и буква Идгама... встречаются в <strong>одном слове</strong>, слияние <strong>НЕ происходит!</strong> Таких слов в Коране всего четыре: <strong>الدُّنْيَا</strong> (ад-Дунья), <strong>قِنْوَانٌ</strong> (Кынванун), <strong>صِنْوَانٌ</strong> (Сынванун), <strong>بُنْيَانٌ</strong> (Бунйанун).</p>
 
+                <h3>🎬 Видео и Аудио Практика</h3>
+                <div class="media-placeholder"><p>Здесь будет ваше Видео к Уроку</p></div>
+                <div class="audio-player">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+                    <p>Аудио-практика:</p>
+                </div>
+
                 <h3>🧠 Тест по Уроку 8</h3>
                 <div class="quiz-container">
                     <p class="quiz-question">С какими буквами Идгам (слияние) происходит БЕЗ Гунны (назализации)?</p>
@@ -380,7 +425,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 </div>
             `
         },
-        // --- Урок 9 (НОВЫЙ) ---
         {
             id: 9,
             title: "Урок 9: Правило Превращения — Икляб",
@@ -410,6 +454,13 @@ document.addEventListener('DOMContentLoaded', () => {
                 <p><strong>Слишком сильное сжатие губ:</strong> Читать «ми<strong>М</strong>-ба'ди» с твердым, резким звуком «М»... Это ошибка. Смыкание должно быть легким.</p>
                 <p><strong>Отсутствие Гунны:</strong> Читать «мим-ба'ди» очень быстро, без удержания звука «м» на 2 счета. Гунна (назализация) здесь <strong>обязательна</strong>.</p>
 
+                <h3>🎬 Видео и Аудио Практика</h3>
+                <div class="media-placeholder"><p>Здесь будет ваше Видео к Уроку</p></div>
+                <div class="audio-player">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+                    <p>Аудио-практика:</p>
+                </div>
+                
                 <h3>🧠 Тест по Уроку 9</h3>
                 <div class="quiz-container">
                     <p class="quiz-question">Сколько букв вызывают правило "Икляб"?</p>
@@ -427,7 +478,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 </div>
             `
         },
-        // --- Урок 10 (НОВЫЙ) ---
         {
             id: 10,
             title: "Урок 10: Искусство Скрытия — Ихфа Хакикы",
@@ -457,6 +507,13 @@ document.addEventListener('DOMContentLoaded', () => {
                 <p><strong>Произнесение четкого «Н» (Изхар):</strong> Читать «ку<strong>н</strong>-тум». Это ошибка. Звук «н» должен быть скрыт.</p>
                 <p><strong>Прикосновение языка к махраджу Нун:</strong> Если вы коснетесь языком бугорка за зубами... Гунна получится «заблокированной»... Язык должен «парить».</p>
 
+                <h3>🎬 Видео и Аудио Практика</h3>
+                <div class="media-placeholder"><p>Здесь будет ваше Видео к Уроку</p></div>
+                <div class="audio-player">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+                    <p>Аудио-практика:</p>
+                </div>
+
                 <h3>🧠 Тест по Уроку 10</h3>
                 <div class="quiz-container">
                     <p class="quiz-question">Сколько букв у правила "Ихфа Хакикы"?</p>
@@ -474,7 +531,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 </div>
             `
         },
-        // --- Урок 11 (НОВЫЙ) ---
         {
             id: 11,
             title: "Урок 11: Практика — Мастер-класс по Нун Сакина",
@@ -508,6 +564,13 @@ document.addEventListener('DOMContentLoaded', () => {
                 <p class="transliteration">"nāran(gh)-dhāta lahab"</p>
                 <p class="explanation"><strong>Объяснение:</strong> Танвин... (ـً) ...За ним — ذ (Заль). Это... Ихфа! Мы скрываем «н»... «...наара<strong>(ннн)</strong>-заата...».</p>
 
+                <h3>🎬 Видео и Аудио Практика</h3>
+                <div class="media-placeholder"><p>Здесь будет ваше Видео к Уроку</p></div>
+                <div class="audio-player">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+                    <p>Аудио-практика:</p>
+                </div>
+                
                 <h3>🧠 Тест по Уроку 11</h3>
                 <div class="quiz-container">
                     <p class="quiz-question">Если вы видите (نْ) (Нун с Сукуном над ней), какое правило это, скорее всего, будет?</p>
@@ -525,7 +588,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 </div>
             `
         },
-        // --- Урок 12 (НОВЫЙ) ---
         {
             id: 12,
             title: "Урок 12: Три правила Мим Сакина (مْ)",
@@ -558,6 +620,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 <p class="transliteration">"tarmīhim-biḥijārah" (Сура: Аль-Филь, 105:4)</p>
                 <p class="explanation"><strong>Объяснение:</strong> ...مْ... За ней идет ب (Ба). Мы «скрываем» Мим, делая... Гунну: «тармииhи<strong>ммм</strong>-бихиджаара...».</p>
 
+                <h3>🎬 Видео и Аудио Практика</h3>
+                <div class="media-placeholder"><p>Здесь будет ваше Видео к Уроку</p></div>
+                <div class="audio-player"><p>Здесь будет ваше аудио к Уроку</p></div>
+
                 <h3>🧠 Тест по Уроку 12</h3>
                 <div class="quiz-container">
                     <p class="quiz-question">Сколько всего правил у Мим Сакина (مْ)?</p>
@@ -575,7 +641,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 </div>
             `
         },
-        // --- Урок 13 (НОВЫЙ) ---
         {
             id: 13,
             title: "Урок 13: Губная Ясность — Изхар Шафави",
@@ -605,6 +670,13 @@ document.addEventListener('DOMContentLoaded', () => {
                 <h3>⚠️ Ошибки, которых следует избегать</h3>
                 <p><strong>Добавление Гунны (Растягивание «М»):</strong> Это... ошибка №1. Ученик читает «ляку<strong>ммм</strong>-диинукум». Это <strong>неправильно</strong>. Гунна (2 счета) здесь <strong>запрещена</strong>.</p>
 
+                <h3>🎬 Видео и Аудио Практика</h3>
+                <div class="media-placeholder"><p>Здесь будет ваше Видео к Уроку</p></div>
+                <div class="audio-player">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+                    <p>Аудио-практика:</p>
+                </div>
+
                 <h3>🧠 Тест по Уроку 13</h3>
                 <div class="quiz-container">
                     <p class="quiz-question">Сколько букв вызывают правило "Изхар Шафави"?</p>
@@ -622,7 +694,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 </div>
             `
         },
-        // --- Урок 14 (НОВЫЙ) ---
         {
             id: 14,
             title: "Урок 14: Встреча Близнецов — Идгам Шафави",
@@ -651,6 +722,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 <h3>⚠️ Ошибки, которых следует избегать</h3>
                 <p><strong>Отсутствие Гунны:</strong> Это самая большая ошибка. Прочитать «ляhум-ма» быстро, без удержания 2-секундного носового звука. Гунна здесь <strong>ваджиб</strong> (обязательна).</p>
 
+                <h3>🎬 Видео и Аудио Практика</h3>
+                <div class="media-placeholder"><p>Здесь будет ваше Видео к Уроку</p></div>
+                <div class="audio-player"><p>Здесь будет ваше аудио к Уроку</p></div>
+
                 <h3>🧠 Тест по Уроку 14</h3>
                 <div class="quiz-container">
                     <p class="quiz-question">Какое второе название у правила "Идгам Шафави"?</p>
@@ -668,7 +743,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 </div>
             `
         },
-        // --- Урок 15 (НОВЫЙ) ---
         {
             id: 15,
             title: "Урок 15: Губное Скрытие — Ихфа Шафави",
@@ -694,6 +768,12 @@ document.addEventListener('DOMContentLoaded', () => {
                 <p><strong>Чтение с Изхаром (Ясно):</strong> Прочитать «hу<strong>м</strong>-<strong>б</strong>аризун» четко, без Гунны. Это самая частая ошибка. Гунна здесь <strong>обязательна</strong>.</p>
                 <p><strong>Слишком сильное сжатие губ:</strong> Если вы <strong>сильно</strong> сожмете губы, Гунна прервется... Смыкание должно быть <strong>едва заметным</strong>.</p>
                 
+                <h3>🎬 Видео и Аудио Практика</h3>
+                <div class="media-placeholder"><p>Здесь будет ваше Видео к Уроку</p></div>
+                <div class="audio-player">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+                    <p>Аудио-практика:</p>
+                </div>
                 <h3>🧠 Тест по Уроку 15</h3>
                 <div class="quiz-container">
                     <p class="quiz-question">С какой ОДНОЙ буквой работает правило "Ихфа Шафави"?</p>
@@ -711,7 +791,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 </div>
             `
         },
-        // --- Урок 16 (НОВЫЙ) ---
         {
             id: 16,
             title: "Урок 16: Музыка Корана — Введение в Мадд",
@@ -744,6 +823,12 @@ document.addEventListener('DOMContentLoaded', () => {
                 <h3>⚠️ Ошибки, которых следует избегать</h3>
                 <p><strong>Путаница с «мягкими» буквами (Лин):</strong> Путать ـُو (уу) с <strong>ـَوْ (ау)</strong>, или ـِي (ии) с <strong>ـَيْ (ай)</strong>. ...يَوْم (йа<strong>у</strong>м) — это <strong>не</strong> Мадд, так как перед و (Вау) стоит Фатха (а не Дамма).</p>
 
+                <h3>🎬 Видео и Аудио Практика</h3>
+                <div class="media-placeholder"><p>Здесь будет ваше Видео к Уроку</p></div>
+                <div class="audio-player">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+                    <p>Аудио-практика:</p>
+                </div>
                 <h3>🧠 Тест по Уроку 16</h3>
                 <div class="quiz-container">
                     <p class="quiz-question">Какое условие у буквы Вау (و), чтобы она стала буквой Мадда?</p>
@@ -761,7 +846,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 </div>
             `
         },
-        // --- Урок 17 (НОВЫЙ) ---
         {
             id: 17,
             title: "Урок 17: Естественный Ритм — Мадд Таби‘и",
@@ -798,6 +882,12 @@ document.addEventListener('DOMContentLoaded', () => {
                 <p class="transliteration">"Yu'minūna"</p>
                 <p class="explanation"><strong>Объяснение:</strong> Буква ن (Нун) с Даммой + و (Вау). ...Это Мадд Таби'и. Тянем «нуу...» на 2 счета.</p>
 
+                <h3>🎬 Видео и Аудио Практика</h3>
+                <div class="media-placeholder"><p>Здесь будет ваше Видео к Уроку</p></div>
+                <div class="audio-player">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+                    <p>Аудио-практика:</p>
+                </div>
                 <h3>🧠 Тест по Уроку 17</h3>
                 <div class="quiz-container">
                     <p class="quiz-question">Какова длина "Мадд Таби'и" (Естественного Мадда)?</p>
@@ -815,7 +905,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 </div>
             `
         },
-        // --- Урок 18 (НОВЫЙ) ---
         {
             id: 18,
             title: "Урок 18: Связанное Удлинение — Мадд Муттасыль",
@@ -843,6 +932,12 @@ document.addEventListener('DOMContentLoaded', () => {
                 <p class="transliteration">"as-sū'a"</p>
                 <p class="explanation"><strong>Объяснение:</strong> В слове <strong>السُّوءَ</strong> (ас-суу'а) мы видим و (Вау Мадда) и сразу за ней ء (Хамза) в одном слове. Мы тянем «ас-суу<strong>уу</strong>'а...» на 4-5 счетов.</p>
 
+                <h3>🎬 Видео и Аудио Практика</h3>
+                <div class="media-placeholder"><p>Здесь будет ваше Видео к Уроку</p></div>
+                <div class="audio-player">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+                    <p>Аудио-практика:</p>
+                </div>
                 <h3>🧠 Тест по Уроку 18</h3>
                 <div class="quiz-container">
                     <p class="quiz-question">Что означает "Мадд Муттасыль" (Связанный Мадд)?</p>
@@ -860,7 +955,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 </div>
             `
         },
-        // --- Урок 19 (НОВЫЙ) ---
         {
             id: 19,
             title: "Урок 19: Разделенное Удлинение — Мадд Мунфасыль",
@@ -893,6 +987,12 @@ document.addEventListener('DOMContentLoaded', () => {
                 <p><strong>Делать паузу:</strong> Прочитать «Йаааа... (пауза) ...аййуhа». Правило... работает, только если вы <strong>соединяете</strong> (васль) эти два слова.</p>
                 <p class="explanation"><strong>Секрет Таджвида:</strong> Если у вас закончилось дыхание и вы... <strong>остановиться</strong> на первом слове (например, на يَا), то правило Мадд Мунфасыль <strong>ИСЧЕЗАЕТ!</strong> Вы должны... прочитав его как Мадд Таби'и (<strong>2 счета</strong>): «Йаа».</p>
 
+                <h3>🎬 Видео и Аудио Практика</h3>
+                <div class="media-placeholder"><p>Здесь будет ваше Видео к Уроку</p></div>
+                <div class="audio-player">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+                    <p>Аудио-практика:</p>
+                </div>
                 <h3>🧠 Тест по Уроку 19</h3>
                 <div class="quiz-container">
                     <p class="quiz-question">Что означает "Мадд Мунфасыль" (Разделенный Мадд)?</p>
@@ -910,7 +1010,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 </div>
             `
         },
-        // --- Урок 20 (НОВЫЙ) ---
         {
             id: 20,
             title: "Урок 20: Временный Мадд (Мадд ‘Āriḍ) и Мягкий Мадд (Лин)",
@@ -943,6 +1042,12 @@ document.addEventListener('DOMContentLoaded', () => {
                 <p>При чтении: Qurayshin. <strong>При остановке: Quraysh</strong></p>
                 <p class="explanation"><strong>Объяснение:</strong> ...слове قُرَيْشٍ (Курайшин) есть «мягкая» буква ي ... (ـَيْ). ...Мы тянем «ай» -> «Курай<strong>йй</strong>ш» (2, 4 или 6 счетов).</p>
 
+                <h3>🎬 Видео и Аудио Практика</h3>
+                <div class="media-placeholder"><p>Здесь будет ваше Видео к Уроку</p></div>
+                <div class="audio-player">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+                    <p>Аудио-практика:</p>
+                </div>
                 <h3>🧠 Тест по Уроку 20</h3>
                 <div class="quiz-container">
                     <p class="quiz-question">Когда возникает "Мадд ‘Āriḍ li-s-Sukūn" (Временный Мадд)?</p>
@@ -960,7 +1065,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 </div>
             `
         },
-        // --- Урок 21 (НОВЫЙ) ---
         {
             id: 21,
             title: "Урок 21: «Живые» Буквы — Правило Калькаля",
@@ -996,6 +1100,12 @@ document.addEventListener('DOMContentLoaded', () => {
                 <h3>⚠️ Ошибки, которых следует избегать</h3>
                 <p><strong>Добавление полной гласной:</strong> Это самая большая ошибка. Читать «аль-Фаляк-<strong>а</strong>»... Это <strong>изменяет слово</strong>. Калькаля — это эхо, а не новая буква.</p>
                 
+                <h3>🎬 Видео и Аудио Практика</h3>
+                <div class="media-placeholder"><p>Здесь будет ваше Видео к Уроку</p></div>
+               <div class="audio-player">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+                    <p>Аудио-практика:</p>
+                </div>
                 <h3>🧠 Тест по Уроку 21</h3>
                 <div class="quiz-container">
                     <p class="quiz-question">Какая фраза помогает запомнить 5 букв Калькаля?</p>
@@ -1012,7 +1122,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 </div>
             `
         },
-        // --- Урок 22 (НОВЫЙ) ---
         {
             id: 22,
             title: "Урок 22: Твердость и Мягкость Буквы Ра (ر)",
@@ -1051,6 +1160,12 @@ document.addEventListener('DOMContentLoaded', () => {
                 <p class="transliteration">"inna Fir-‘awna"</p>
                 <p class="explanation"><strong>Объяснение:</strong> ...رْ (Ра Сакина) стоит после فِ (Фи) с Кясрой. Ра (ر) должна быть мягкой: «Фи<strong>рр</strong>-'ауна».</p>
                 
+                <h3>🎬 Видео и Аудио Практика</h3>
+                <div class="media-placeholder"><p>Здесь будет ваше Видео к Уроку</p></div>
+               <div class="audio-player">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+                    <p>Аудио-практика:</p>
+                </div>
                 <h3>🧠 Тест по Уроку 22</h3>
                 <div class="quiz-container">
                     <p class="quiz-question">Какие огласовки делают букву Ра (ر) ТВЕРДОЙ?</p>
@@ -1067,7 +1182,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 </div>
             `
         },
-        // --- Урок 23 (НОВЫЙ) ---
         {
             id: 23,
             title: "Урок 23: Лям (ل) в Слове «Аллах» (اللَّه)",
@@ -1099,6 +1213,12 @@ document.addEventListener('DOMContentLoaded', () => {
                 <p class="transliteration">"Bismi-llāhi..."</p>
                 <p class="explanation"><strong>Объяснение:</strong> ...Перед Словом (اللَّهِ) стоит буква م (Мим) с <strong>Кясрой</strong>... Лям (ل) читается мягко: «Бисми-<strong>лл</strong>аhи...».</p>
 
+                <h3>🎬 Видео и Аудио Практика</h3>
+                <div class="media-placeholder"><p>Здесь будет ваше Видео к Уроку</p></div>
+                <div class="audio-player">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+                    <p>Аудио-практика:</p>
+                </div>
                 <h3>🧠 Тест по Уроку 23</h3>
                 <div class="quiz-container">
                     <p class="quiz-question">В каком случае Лям (ل) в слове (اللَّه) читается МЯГКО (Таркык)?</p>
@@ -1115,7 +1235,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 </div>
             `
         },
-        // --- Урок 24 (НОВЫЙ) ---
         {
             id: 24,
             title: "Урок 24: Хамзат аль-Васль (ٱ) и Хамзат аль-Кат‘ (أ)",
@@ -1147,6 +1266,12 @@ document.addEventListener('DOMContentLoaded', () => {
                 <p class="transliteration">"Bismi-llāhi-r-raḥmāni-r-raḥīm"</p>
                 <p class="explanation"><strong>Объяснение:</strong> ...Все три Хамзы (ٱ) пропущены! «Бисми-<strong>лл</strong>аh» (а не «Бисми-<strong>А</strong>ллаh»). «...hи-<strong>р-р</strong>ахман» (а не «...hи-<strong>А</strong>р-рахман»).</p>
 
+                <h3>🎬 Видео и Аудио Практика</h3>
+                <div class="media-placeholder"><p>Здесь будет ваше Видео к Уроку</p></div>
+                <div class="audio-player">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+                    <p>Аудио-практика:</p>
+                </div>
                 <h3>🧠 Тест по Уроку 24</h3>
                 <div class="quiz-container">
                     <p class="quiz-question">Как читается Хамзат аль-Кат‘ (أ) (Режущая Хамза)?</p>
@@ -1163,7 +1288,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 </div>
             `
         },
-        // --- Урок 25 (НОВЫЙ) ---
         {
             id: 25,
             title: "Урок 25: «Близнецы» и «Соседи» (Мутамасиляйн...)",
@@ -1195,6 +1319,13 @@ document.addEventListener('DOMContentLoaded', () => {
                 <p class="transliteration">"Wa qur-Rabbi" (а не "Wa qul... Rabbi")</p>
                 <p class="explanation"><strong>Объяснение:</strong> Мы уже знаем это правило! لْ (Лям) сливается с ر (Ра). Мы читаем: «Ва ку<strong>р-Р</strong>абби...».</p>
 
+                <h3>🎬 Видео и Аудио Практика</h3>
+                <div class="media-placeholder"><p>Здесь будет ваше Видео к Уроку</p></div>
+                <div class="audio-player">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+                    <p>Аудио-практика:</p>
+                </div>
+
                 <h3>🧠 Тест по Уроку 25</h3>
                 <div class="quiz-container">
                     <p class="quiz-question">Что означает "Мутамасиляйн" (Близнецы)?</p>
@@ -1212,7 +1343,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 </div>
             `
         },
-        // --- Урок 26 (НОВЫЙ) ---
         {
             id: 26,
             title: "Урок 26: «Генеральная Уборка» — Практика Махаридж",
@@ -1256,6 +1386,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 <p><strong>Произносить (ح) как (Х):</strong> «Ар-Ра<strong>х</strong>ман» (с русским х) вместо «Ар-Ра<strong>ḥ</strong>ман» (с горячим выдохом).</p>
                 <p><strong>«Заражение» мягких букв:</strong> В слове خَلَقَ (Халяка)... (ل) между ними — мягкая! Не читайте «Ха-<strong>ЛА</strong>-ка». Читайте «Ха-<strong>ля</strong>-ка»...</p>
 
+                <h3>🎬 Видео и Аудио Практика</h3>
+                <div class="media-placeholder"><p>Здесь будет ваше Видео к Уроку</p></div>
+                <div class="audio-player"><p>Здесь будет ваше аудио к Уроку</p></div>
+
                 <h3>🧠 Тест по Уроку 26</h3>
                 <div class="quiz-container">
                     <p class="quiz-question">В какой части горла "живут" буквы (ع) и (ح)?</p>
@@ -1273,7 +1407,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 </div>
             `
         },
-        // --- Урок 27 (НОВЫЙ) ---
         {
             id: 27,
             title: "Урок 27: Мелодия Корана — Тренировка Гунны",
@@ -1308,6 +1441,12 @@ document.addEventListener('DOMContentLoaded', () => {
                 <p><strong>Неправильно:</strong> «а<strong>нннн</strong>-'амта» (أَنْعَمْتَ). <strong>Правильно:</strong> «а<strong>н</strong>-'амта» (Четкий «н», <strong>без</strong> Гунны!).</p>
                 <p><strong>Неправильно:</strong> «ми<strong>нннн</strong>-Раббихим» (مِن رَّبِّهِمْ). <strong>Правильно:</strong> «ми<strong>р-Р</strong>аббихим» (Идгам <strong>без</strong> Гунны!).</p>
 
+                <h3>🎬 Видео и Аудио Практика</h3>
+                <div class="media-placeholder"><p>Здесь будет ваше Видео к Уроку</p></div>
+                <div class="audio-player">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+                    <p>Аудио-практика:</p>
+                </div>
                 <h3>🧠 Тест по Уроку 27</h3>
                 <div class="quiz-container">
                     <p class="quiz-question">Какова стандартная длина Гунны?</p>
@@ -1324,7 +1463,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     </div>
                 </div>
             `
-        }, 
+        },
         {
             id: 28,
             title: "Урок 28: Симфония Чтения — Тренировка Маддов",
@@ -1360,6 +1499,12 @@ document.addEventListener('DOMContentLoaded', () => {
                 <strong>وَالطَّارِقِ (waṭ-Ṭāriq):</strong> Мадд (ـَا) + буква (رِ). Это <strong>Таби'и</strong>. Тянем 2 счета. [cite: 1959]<br>
                 Задача: Протянуть «Сам<strong>аааа</strong>'и» (долго), а затем «Т<strong>аа</strong>рикъ» (коротко). [cite: 1960]</p>
 
+                <h3>🎬 Видео и Аудио Практика</h3>
+                <div class="media-placeholder"><p>Здесь будет ваше Видео к Уроку</p></div>
+              <div class="audio-player">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+                    <p>Аудио-практика:</p>
+                </div>
                 <h3>🧠 Тест по Уроку 28</h3>
                 <div class="quiz-container">
                     <p class="quiz-question">Какова ОБЯЗАТЕЛЬНАЯ длина Мадд Лязим (الْمَدُّ اللَّازِمُ), как в слове الضَّالِّينَ?</p>
@@ -1377,7 +1522,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 </div>
             `
         },
-        // --- Урок 29 (НОВЫЙ) [cite: 1997-2066] ---
         {
             id: 29,
             title: "Урок 29: «Полировка» — Распространенные Ошибки",
@@ -1421,6 +1565,12 @@ document.addEventListener('DOMContentLoaded', () => {
                 Ошибка (при остановке): Читать «Ахад<strong>-у</strong>» или «Ахад<strong>-а</strong>». [cite: 2037]<br>
                 Правильно: «Аха<strong>Д(а)</strong>». Это легкое эхо, а не новая гласная (Урок 21). [cite: 2038]</p>
                 
+                <h3>🎬 Видео и Аудио Практика</h3>
+                <div class="media-placeholder"><p>Здесь будет ваше Видео к Уроку</p></div>
+                <div class="audio-player">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+                    <p>Аудио-практика:</p>
+                </div>
                 <h3>🧠 Тест по Уроку 29</h3>
                 <div class="quiz-container">
                     <p class="quiz-question">Как называется ошибка, которая МЕНЯЕТ смысл, например, чтение "ан'амту" (Я) вместо "ан'амта" (Ты)?</p>
@@ -1438,7 +1588,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 </div>
             `
         },
-        // --- Урок 30 (НОВЫЙ) [cite: 2067-2161] ---
         {
             id: 30,
             title: "Урок 30: Венец Путешествия — Сура «Аль-Фатиха»",
@@ -1475,6 +1624,12 @@ document.addEventListener('DOMContentLoaded', () => {
                 <p>Мой дорогой ученик, помните: Таджвид — это не 30-дневный курс, это <strong>путешествие длиною в жизнь</strong>. [cite: 2153]</p>
                 <p>Никогда не останавливайтесь на достигнутом. Читайте, учитесь и возвышайтесь. [cite: 2159]</p>
 
+                <h3>🎬 Видео и Аудио Практика</h3>
+                <div class="media-placeholder"><p>Здесь будет ваше Видео к Уроку</p></div>
+                <div class="audio-player">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+                    <p>Аудио-практика:</p>
+                </div>
                 <h3>🧠 Тест по Уроку 30</h3>
                 <div class="quiz-container">
                     <p class="quiz-question">Как правильно читать Лям (ل) в Слове "Аллах" (اللَّهِ) в первом аяте (Бисмиллях)?</p>
@@ -1496,59 +1651,42 @@ document.addEventListener('DOMContentLoaded', () => {
     const lessonList = document.getElementById('lesson-list');
     const lessonDisplay = document.getElementById('lesson-display');
     const searchBar = document.getElementById('search-bar');
-    
-    // *** ИСПРАВЛЕНИЕ: Мы получаем эти элементы здесь ***
     const menuToggle = document.getElementById('menu-toggle');
     const sidebar = document.getElementById('sidebar');
     const mainContent = document.querySelector('.main-content');
-    
-    let lessonLinks = []; // Мы сохраним ссылки на уроки здесь
 
-    // ======================= //
-    //     Функция Загрузки Урока //
-    // ======================= //
+    let lessonLinks = [];
     function loadLesson(lessonId) {
         const lesson = allLessons.find(l => l.id === lessonId);
         if (!lesson) return;
-
-        // Загружаем контент урока
         lessonDisplay.innerHTML = lesson.content;
-
-        // Анимация GSAP
-        gsap.fromTo(lessonDisplay.children, 
-            { opacity: 0, y: 30 }, 
-            { 
-                opacity: 1, 
-                y: 0, 
-                duration: 0.6, 
-                stagger: 0.1, 
-                ease: 'power3.out' 
+        gsap.fromTo(lessonDisplay.children,
+            { opacity: 0, y: 30 },
+            {
+                opacity: 1,
+                y: 0,
+                duration: 0.6,
+                stagger: 0.1,
+                ease: 'power3.out'
             }
         );
 
-        // Обновляем .active класс в списке
         lessonLinks.forEach(link => {
             link.classList.remove('active');
             if (parseInt(link.dataset.id) === lessonId) {
                 link.classList.add('active');
             }
         });
-        
-        // Прокручиваем контент наверх
+
         if (lessonDisplay.parentElement) {
             lessonDisplay.parentElement.scrollTop = 0;
         }
-        
-        // Активация тестов для нового контента
         activateQuizListeners();
     }
 
-    // ======================= //
-    //     Функция Поиска      //
-    // ======================= //
     function filterLessons() {
         const searchTerm = searchBar.value.toLowerCase();
-        
+
         lessonLinks.forEach(link => {
             const title = link.textContent.toLowerCase();
             if (title.includes(searchTerm)) {
@@ -1558,13 +1696,10 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
     }
-    
-    // ======================= //
-    //     Логика Тестов       //
-    // ======================= //
+
     function activateQuizListeners() {
         const quizOptionGroups = lessonDisplay.querySelectorAll('.quiz-options');
-        
+
         quizOptionGroups.forEach(group => {
             const buttons = group.querySelectorAll('button');
             buttons.forEach(button => {
@@ -1572,13 +1707,13 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         });
     }
-    
+
     function handleQuizClick(event) {
         const clickedButton = event.target;
         const isCorrect = clickedButton.dataset.correct === 'true';
-        
+
         const optionsGroup = clickedButton.parentElement;
-        
+
         if (isCorrect) {
             clickedButton.classList.add('correct');
         } else {
@@ -1588,65 +1723,44 @@ document.addEventListener('DOMContentLoaded', () => {
                 correctButton.classList.add('correct');
             }
         }
-        
+
         optionsGroup.querySelectorAll('button').forEach(btn => {
             btn.disabled = true;
         });
     }
-
-    // ======================= //
-    //      Инициализация      //
-    // ======================= //
-    
-    // 1. Генерируем список уроков
     allLessons.forEach(lesson => {
         const li = document.createElement('li');
         const a = document.createElement('a');
         a.textContent = lesson.title;
-        a.dataset.id = lesson.id; // Сохраняем ID урока
+        a.dataset.id = lesson.id;
         li.appendChild(a);
         lessonList.appendChild(li);
     });
 
-    // Сохраняем все ссылки в массив для быстрого доступа
     lessonLinks = Array.from(lessonList.querySelectorAll('a'));
 
-    // 2. Назначаем слушателей событий (Поиск)
     searchBar.addEventListener('keyup', filterLessons);
 
-    // 3. Назначаем слушателей событий (Выбор урока)
     lessonList.addEventListener('click', (e) => {
-        // Убедимся, что кликнули именно по ссылке (<a>)
         if (e.target.tagName === 'A') {
             const lessonId = parseInt(e.target.dataset.id);
             loadLesson(lessonId);
-            
-            // *** ИСПРАВЛЕНИЕ ЗДЕСЬ ***
-            // Теперь мы закрываем меню, когда кликаем на урок
+
             if (sidebar.classList.contains('open')) {
                 sidebar.classList.remove('open');
             }
         }
     });
 
-    // 4. Загружаем Урок 1 по умолчанию
     loadLesson(1);
-    
-    // ======================= //
-    //    Логика Адаптивности   //
-    // ======================= //
-    
-    // 1. Открываем/Закрываем меню по клику на "бургер"
     if (menuToggle && sidebar) {
         menuToggle.addEventListener('click', () => {
             sidebar.classList.toggle('open');
         });
     }
 
-    // 2. (Бонус) Закрываем меню, если кликнуть "мимо" него (на контент)
     if (mainContent && sidebar) {
         mainContent.addEventListener('click', (e) => {
-            // Убедимся, что клик не был по самой кнопке-бургеру
             if (!menuToggle.contains(e.target) && sidebar.classList.contains('open')) {
                 sidebar.classList.remove('open');
             }
